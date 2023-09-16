@@ -9,7 +9,7 @@ version = "0.3.X"
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
 # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-gitRepo = "https://github.com/HEIGE-PCloud/DoIt"
+gitRepo = "https://github.com/zhiyu-zeng/Notion-Hugo/"
 # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
 # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
 fingerprint = ""
@@ -38,7 +38,7 @@ desktopMode = "fixed"
 mobileMode = "auto"
 # theme change mode ("switch", "select")
 # 主题切换模式 ("switch", "select")
-themeChangeMode = "select"
+themeChangeMode = "switch"
 # Header title config
 # 页面头部导航栏标题配置
 [header.title]
@@ -150,22 +150,22 @@ fontawesome = true
 linkToMarkdown = true
 # configure the link to view source the post
 # 配置文章原始文件的链接
-linkToSource = "https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}"
+linkToSource = "https://github.com/zhiyu-zeng/Notion-Hugo/blob/main/exampleSite/content/{path}"
 # "https://github.com/user/repo/blob/main/{path}"
 # configure the link to edit the post
 # 配置编辑文章的链接
-linkToEdit = "https://github.com/HEIGE-PCloud/DoIt/edit/main/exampleSite/content/{path}"
+linkToEdit = "https://github.com/zhiyu-zeng/Notion-Hugo/edit/main/exampleSite/content/{path}"
 # https://github.com/user/repo/edit/main/{path}
 # https://gitlab.com/user/repo/-/edit/main/{path}
 # https://bitbucket.org/user/repo/src/main/{path}?mode=edit
 # configure the link to report issue for the post
 # 配置提交错误的链接
-linkToReport = "https://github.com/HEIGE-PCloud/DoIt/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/HEIGE-PCloud/DoIt/blob/main/exampleSite/content/{path}|"
+linkToReport = "https://github.com/zhiyu-zeng/Notion-Hugo//issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/zhiyu-zeng/Notion-Hugo/blob/main/exampleSite/content/{path}|"
 # https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
 # https://gitlab.com/user/repo/-/issues/new?issue[title]=[bug]%20{title}&issue[description]=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://gitlab.com/user/repo/-/edit/main/{path}|
 # whether to show the full text content in RSS
 # 是否在 RSS 中显示全文内容
-rssFullText = false
+rssFullText = true
 # Page style ("normal", "wide")
 # 页面样式 ("normal", "wide")
 pageStyle = "normal"
@@ -270,11 +270,11 @@ Blogger = false
 Buffer = false
 Digg = false
 Evernote = false
-Facebook = true
+Facebook = false
 Flipboard = false
-HackerNews = true
+HackerNews = false
 Instapaper = false
-Line = true
+Line = false
 Linkedin = false
 Mix = false
 Myspace = false
@@ -285,15 +285,15 @@ Reddit = false
 Renren = false
 Skype = false
 Stumbleupon = false
-Telegram = true
+Telegram = false
 Trello = false
 Tumblr = false
-Twitter = true
+Twitter = false
 VK = false
-Weibo = true
+Weibo = false
 Whatsapp = false
 Xing = false
-enable = true
+enable = false
 # Comment config
 # 评论系统设置
 [page.comment]
