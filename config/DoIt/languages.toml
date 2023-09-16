@@ -26,13 +26,13 @@
       title = ""
       weight = 1
     [[en.menu.main]]
-      identifier = "tags"
+      identifier = "series"
       pre = ""
       post = ""
-      name = "Tags"
-      url = "/tags/"
+      name = "Series"
+      url = "/series/"
       title = ""
-      weight = 2
+      weight = 4
     [[en.menu.main]]
       identifier = "categories"
       pre = ""
@@ -42,45 +42,45 @@
       title = ""
       weight = 3
     [[en.menu.main]]
-      identifier = "series"
+      identifier = "tags"
       pre = ""
       post = ""
-      name = "Series"
-      url = "/series/"
+      name = "Tags"
+      url = "/tags/"
       title = ""
-      weight = 4
-    [[en.menu.main]]
-      identifier = "authors"
-      pre = ""
-      post = ""
-      name = "Authors"
-      url = "/authors/"
-      title = ""
-      weight = 5
-    [[en.menu.main]]
-      identifier = "showcase"
-      pre = ""
-      post = ""
-      name = "Showcase"
-      url = "/showcase/"
-      title = ""
-      weight = 6
-    [[en.menu.main]]
-      identifier = "documentation"
-      pre = ""
-      post = ""
-      name = "Docs"
-      url = "/categories/documentation/"
-      title = ""
-      weight = 7
-    [[en.menu.main]]
-      identifier = "about"
-      pre = ""
-      post = ""
-      name = "About"
-      url = "/about/"
-      title = ""
-      weight = 8
+      weight = 2
+  #  [[en.menu.main]]
+  #    identifier = "authors"
+  #    pre = ""
+  #    post = ""
+  #    name = "Authors"
+  #    url = "/authors/"
+  #    title = ""
+  #    weight = 5
+  #  [[en.menu.main]]
+  #    identifier = "showcase"
+  #    pre = ""
+  #    post = ""
+  #    name = "Showcase"
+  #    url = "/showcase/"
+  #    title = ""
+  #    weight = 6
+  #  [[en.menu.main]]
+  #    identifier = "documentation"
+  #    pre = ""
+  #    post = ""
+  #    name = "Docs"
+  #    url = "/categories/documentation/"
+  #    title = ""
+  #    weight = 7
+  #  [[en.menu.main]]
+  #    identifier = "about"
+  #    pre = ""
+  #    post = ""
+  #    name = "About"
+  #    url = "/about/"
+  #    title = ""
+  #    weight = 8
     [[en.menu.main]]
       identifier = "github"
       pre = "<i class='fab fa-github fa-fw'></i>"
@@ -230,16 +230,18 @@
       ORCID = ""
       QQ = ""
       QQGroup = ""
-      Liberapay = "xxx"
-      Ko-Fi = "xxx"
+      Liberapay = ""
+      Ko-Fi = ""
       BuyMeACoffee = ""
       Linktree = ""
       Email = "zzy07112@gmail.com"
       RSS = true
       [en.params.social.Mastodon]
+        enable = false
         id = "@xxxx"
         prefix = "https://mastodon.technology/"
       [en.params.social.Diaspora]
+        enable = false
         id = "@xxxx"
         prefix = "https://yyyy/"
     # Sponsor config
@@ -277,13 +279,13 @@
       title = ""
       weight = 1
     [[zh-cn.menu.main]]
-      identifier = "tags"
+      identifier = "series"
       pre = ""
       post = ""
-      name = "标签"
-      url = "/tags/"
+      name = "系列"
+      url = "/series/"
       title = ""
-      weight = 2
+      weight = 4
     [[zh-cn.menu.main]]
       identifier = "categories"
       pre = ""
@@ -293,36 +295,36 @@
       title = ""
       weight = 3
     [[zh-cn.menu.main]]
-      identifier = "series"
+      identifier = "tags"
       pre = ""
       post = ""
-      name = "系列"
-      url = "/series/"
+      name = "标签"
+      url = "/tags/"
       title = ""
-      weight = 4
-    [[zh-cn.menu.main]]
-      identifier = "authors"
-      pre = ""
-      post = ""
-      name = "作者"
-      url = "/authors/"
-      title = ""
-      weight = 5
-    [[zh-cn.menu.main]]
-      identifier = "showcase"
-      pre = ""
-      post = ""
-      name = "作品"
-      url = "/showcase/"
-      title = ""
-      weight = 6
-    [[zh-cn.menu.main]]
-      identifier = "documentation"
-      pre = ""
-      name = "文档"
-      url = "/categories/documentation/"
-      title = ""
-      weight = 7
+      weight = 2
+  #  [[zh-cn.menu.main]]
+  #    identifier = "authors"
+  #    pre = ""
+  #    post = ""
+  #    name = "作者"
+  #    url = "/authors/"
+  #    title = ""
+  #    weight = 5
+  #  [[zh-cn.menu.main]]
+  #    identifier = "showcase"
+  #    pre = ""
+  #    post = ""
+  #    name = "作品"
+  #    url = "/showcase/"
+  #    title = ""
+  #    weight = 6
+  #  [[zh-cn.menu.main]]
+  #    identifier = "documentation"
+  #    pre = ""
+  #    name = "文档"
+  #    url = "/categories/documentation/"
+  #    title = ""
+  #    weight = 7
     [[zh-cn.menu.main]]
       identifier = "about"
       pre = ""
@@ -406,7 +408,7 @@
         # 是否为副标题显示打字机动画
         typeit = true
         # 是否显示社交账号
-        social = false
+        social = true
         # 免责声明 (支持 HTML 格式)
         disclaimer = ""
       # 主页文章列表

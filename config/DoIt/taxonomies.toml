@@ -1,5 +1,6 @@
 # Options for taxonomies
 # 用于分类的设置
+series = "series"
 category = "categories"
 tag = "tags"
-series = "series"
+
