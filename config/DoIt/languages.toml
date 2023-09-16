@@ -152,7 +152,7 @@
         # title shown in home page (HTML format is supported)
         title = ""
         # subtitle shown in home page
-        subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+        subtitle = "ZhiYu`s Blog"
         # whether to use typeit animation for subtitle
         typeit = true
         # whether to show social links
@@ -166,15 +166,15 @@
         paginate = 7
     # Social config in home page
     [en.params.social]
-      GitHub = "xxxx"
+      GitHub = "https://github.com/zhiyu-zeng"
       Linkedin = ""
-      Twitter = "xxxx"
+      Twitter = ""
       Instagram = ""
-      Facebook = "xxxx"
-      Telegram = "xxxx"
+      Facebook = ""
+      Telegram = ""
       Medium = ""
       Gitlab = ""
-      Youtubelegacy = "xxxx"
+      Youtubelegacy = ""
       Youtubecustom = ""
       Youtubechannel = ""
       Tumblr = ""
@@ -234,7 +234,7 @@
       Ko-Fi = "xxx"
       BuyMeACoffee = ""
       Linktree = ""
-      Email = "xxxx@xxxx.com"
+      Email = "zzy07112@gmail.com"
       RSS = true
       [en.params.social.Mastodon]
         id = "@xxxx"
@@ -246,7 +246,7 @@
     [en.params.sponsor]
       enable = false
       bio = "If you find this post helpful, please consider sponsoring."
-      link = "https://github.com/sponsors/HEIGE-PCloud"
+      link = "https://github.com/zhiyu-zeng"
       # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
 
 
@@ -402,7 +402,7 @@
         # 主页显示的网站标题 (支持 HTML 格式)
         title = ""
         # 主页显示的网站副标题
-        subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+        subtitle = "ZhiYu`s Blog"
         # 是否为副标题显示打字机动画
         typeit = true
         # 是否显示社交账号
@@ -416,7 +416,7 @@
         paginate = 7
     # 主页的社交信息设置
     [zh-cn.params.social]
-      GitHub = "xxxx"
+      GitHub = "https://github.com/zhiyu-zeng"
       Linkedin = ""
       Twitter = ""
       Instagram = ""
@@ -436,7 +436,7 @@
       FreeCodeCamp = ""
       Bitbucket = ""
       Stackoverflow = ""
-      Weibo = "xxxx"
+      Weibo = ""
       Odnoklassniki = ""
       VK = ""
       Flickr = ""
@@ -454,13 +454,13 @@
       Hackernews = ""
       Kickstarter = ""
       Patreon = ""
-      Steam = "xxxx"
+      Steam = ""
       Twitch = ""
       Strava = ""
       Skype = ""
       Whatsapp = ""
-      Zhihu = "xxxx"
-      Douban = "xxxx"
+      Zhihu = ""
+      Douban = ""
       Angellist = ""
       Slidershare = ""
       Jsfiddle = ""
@@ -473,11 +473,11 @@
       Researchgate = ""
       Mastodon = ""
       Thingiverse = ""
-      Devto = "xxxx"
+      Devto = ""
       Gitea = ""
       XMPP = ""
       Matrix = ""
-      Bilibili = "xxxx"
+      Bilibili = ""
       ORCID = ""
       Liberapay = ""
       Ko-Fi = ""
@@ -485,7 +485,7 @@
       Linktree = ""
       QQ = ""
       QQGroup = ""
-      Email = "xxxx@xxxx.com"
+      Email = "zzy07112@gmail.com"
       RSS = true
       # 赞助设置
     [zh-cn.params.sponsor]

@@ -1,6 +1,6 @@
 # website title
 # 网站标题
-title = "Hugo DoIt Theme Documentation"
+title = "zhiyu`s blog"
 # DoIt theme version
 # DoIt 主题版本
 version = "0.3.X"
@@ -47,7 +47,7 @@ themeChangeMode = "select"
 logo = ""
 # title name
 # 标题名称
-name = "DoIt"
+name = "Blog"
 # you can add extra information before the name (HTML format is supported), such as icons
 # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
 pre = "<i class='far fa-edit fa-fw'></i>"

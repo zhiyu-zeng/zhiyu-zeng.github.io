@@ -1,7 +1,7 @@
 baseURL = "https://www.zhiyv.me"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "en"
+defaultContentLanguage = "en,zh-cn"
 # theme
 # 主题
 theme = "DoIt"
